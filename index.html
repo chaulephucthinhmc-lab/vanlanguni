@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Van Lang Green Campus</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+<nav class="navbar">
+<div class="logo">🌱 Van Lang Green Campus</div>
+<ul>
+<li><a href="#reality">Reality</a></li>
+<li><a href="#impact">Impact</a></li>
+<li><a href="#survey">Survey</a></li>
+<li><a href="#fund">Green Fund</a></li>
+</ul>
+</nav>
+
+<header class="hero">
+<div class="hero-content">
+<h1>Reduce Single-Use Plastic Waste</h1>
+<p>Together for a green, clean and sustainable campus at Van Lang University.</p>
+<a href="#reality" class="btn">Explore</a>
+</div>
+</header>
+
+<section id="reality">
+<h2>Plastic Waste at Van Lang University</h2>
+<p class="lead">
+Every day, many students use plastic bottles, plastic cups, food boxes and plastic bags.
+These items are often used only once and then thrown away.
+</p>
+
+<div class="stats">
+<div class="card"><h3 class="counter" data-target="78">0</h3><p>Students use plastic bottles</p></div>
+<div class="card"><h3 class="counter" data-target="65">0</h3><p>Students buy takeaway drinks</p></div>
+<div class="card"><h3 class="counter" data-target="82">0</h3><p>Students support reducing plastic waste</p></div>
+</div>
+</section>
+
+<section id="gallery">
+<h2>Environmental Photos</h2>
+<div class="gallery">
+<img src="c:\Users\MSI\Downloads\2aOboQdXFGxWjnBo4cpIR1cFbAyZrNevrkHOGfUu.jpg">
+<img src="c:\Users\MSI\Downloads\2aOboQdXFIgAZ0SAB0UWpA27LwtoTrx57gjrmNpQ.jpg">
+<img src="c:\Users\MSI\Downloads\2aOboQdXFHzWJsw62IOsEmBaL6kMM5QAlIfcsrlw.jpg">
+<img src="c:\Users\MSI\Downloads\2aOboQdXFGoBmF5aHCnpWnnucrjLALvgTpG2jrPc.jpg">
+<img src="c:\Users\MSI\Downloads\2aOboQdXFGoBmF5aHCnpWnoxIxTTB26C214EB5JA.jpg">
+<img src="c:\Users\MSI\Downloads\2aOboQdXFGnxBJRJFxYgSmPuP1765ubbLcBdzWDo.jpg">
+</div>
+</section>
+
+<section id="impact">
+<h2>Impact of Plastic Waste</h2>
+<div class="stats">
+<div class="card"><h3>🏫 Campus Appearance</h3><p>Plastic waste makes the campus look less clean.</p></div>
+<div class="card"><h3>♻️ Waste Management</h3><p>More plastic waste means more work to collect trash.</p></div>
+<div class="card"><h3>🌍 Environmental Pollution</h3><p>Plastic stays in nature for many years.</p></div>
+</div>
+</section>
+
+<section id="survey">
+<h2>Student Survey</h2>
+<canvas id="chart"></canvas>
+<p class="note">*Sample survey data for learning purposes only.</p>
+</section>
+
+<section id="calculator">
+<h2>Plastic Reduction Calculator</h2>
+<input id="students" type="number" placeholder="Number of students">
+<button onclick="calculateImpact()">Calculate</button>
+<p id="result"></p>
+</section>
+
+<section id="fund" class="fund">
+<h2>💚 Green Fund</h2>
+<p>Support environmental activities on campus.</p>
+<p><span id="money">32,500,000</span> / 50,000,000 VND</p>
+<div class="progress"><div id="bar"></div></div>
+<input type="number" id="amount" placeholder="Enter donation amount">
+<button onclick="donate()">Support Now</button>
+</section>
+
+<section class="quote">
+<h2>"A plastic bottle thrown away today may stay on Earth for hundreds of years."</h2>
+<p>Small actions today can create a greener future tomorrow.</p>
+</section>
+
+<footer>
+<p>Van Lang Green Campus © 2026</p>
+<p>Together for a greener campus.</p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
