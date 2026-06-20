@@ -26,3 +26,35 @@ button{border:none;background:#16a34a;color:white;cursor:pointer}
 .quote{background:#0f172a;color:white;text-align:center}
 footer{background:#020617;color:white;text-align:center;padding:20px}
 @media(max-width:768px){.hero h1{font-size:2.2rem}.navbar{flex-direction:column;gap:10px}}
+#gallery {
+    max-width: 1000px; /* Giới hạn chiều rộng để đoạn văn không bị quá dài, dễ đọc hơn */
+    margin: 0 auto;    /* Căn giữa toàn bộ khối lệnh này ra giữa màn hình */
+    padding: 40px 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Căn giữa tiêu đề chính */
+.gallery-title {
+    text-align: center;
+    color: #1a252f;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+/* Căn giữa các câu hỏi phụ */
+.gallery-subtitle {
+    text-align: center;
+    color: #2c3e50;
+    font-size: 1.3rem;
+    margin-top: 35px;  /* Tạo khoảng cách với đoạn văn phía trên */
+    margin-bottom: 10px;
+}
+
+/* Căn giữa các đoạn văn văn bản */
+.gallery-text {
+    text-align: center; /* ĐÂY LÀ LỆNH QUAN TRỌNG ĐỂ CĂN GIỮA CHỮ */
+    line-height: 1.6;   /* Giúp các dòng chữ thoáng, không bị dính vào nhau */
+    color: #333333;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
